@@ -62,6 +62,13 @@ header {
   overflow: hidden;
   padding-top: 60px;
 }
+
+.resume_imgs {
+  /* background-size: cover; */
+  width: 100%;
+  /* min-height: 60%; */
+}
+
 header {
   line-height: 1.5;
 }
@@ -70,7 +77,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 5px solid rgb(81, 175, 75);
   transition: all 0.5s;
 }
 header .profile-image:hover {
@@ -90,8 +97,6 @@ header .profile-image:hover {
 }
 .card {
   margin: 30px;
-  padding: 20px 40px 40px;
-  max-width: 500px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
@@ -100,6 +105,10 @@ header .profile-image:hover {
 }
 .card:hover {
   border-color: #ff99ff;
+}
+
+.card_info {
+  padding: 20px 40px 40px;
 }
 
 ul.skills {
@@ -172,9 +181,9 @@ a.social:hover {
   .flex {
     display: -ms-flexbox; /* TWEENER - IE 10 */
     display: flex;
-    max-width: 1200px;
+    max-width: 1500px;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 0 auto;
   }
 
